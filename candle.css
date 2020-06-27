@@ -1,0 +1,161 @@
+*
+{box-sizing: border-box;background-color:#EED0C8 ;
+perspective: 500px;
+max-width: 950px;
+margin: auto;                    }
+.container
+{text-align: center;                             }
+/*lines */
+h2,h3 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: .4em;
+    margin: 50px 0 50px;
+   
+  }
+  
+  h2 span,h3 span {
+    font-family: 'Allan';font-size: 28px;font-weight: lighter;
+    padding: 0 10px;
+  }
+  /*button*/
+  button {
+    background-color:#FAB08B ;
+    border: none;
+    color: white;
+    padding: 22px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  button:hover
+{border: 5px solid salmon;                                                    }
+
+
+/*logo name and details */
+.container1
+{                     
+  display: grid; max-width: 100%;
+   
+}
+
+.upper-bar
+{ text-align: center;    line-height: 1.25;                     }
+.logo-name
+{ text-align: center;height: 170px;font-size: xx-large; 
+font-weight: 100;font-family: 'Averia Serif Libre';                       }
+.logo-name span 
+{font-family:Arizonia; font-style: italic;font-size: 70px;                                                    }
+
+.lower-bar ol
+{text-align: center;                                         }
+.lower-bar ol li
+{display:inline-block;padding: 10px; text-align: center; background-color: #FAB08B; 
+          }
+.lower-bar ol li:hover
+{background-color:#EED0C8 ;border: 3px solid #FAB08B;cursor: pointer;  ;                                                       }                           
+.lower-bar ol li a
+{text-decoration: none;color: #000;                                             } 
+/*header img*/
+.hd-img
+{ grid-area: 4/1/5/4;width: 100%;height: 530px
+  ;padding: 30px 0;margin-bottom: 15px ;text-align: center;
+background-image: url('PicsArt_06-22-04.09.10.jpg');background-size: 100% 100%;    }
+
+.hd-img div
+{
+
+  background-color: unset;
+  font-family: 'Merienda One'; font-size: 40px;line-height: 48px;
+color:#EEE7D4;text-shadow:2px 2px #F4764A ;
+margin-bottom: 50PX;
+}
+/*3 img under header*/
+.container2
+{ display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 250px;
+    grid-gap: 15px;  }
+                                      
+/*best sellers*/
+.best-sellers
+{ display: grid; grid-template-columns: repeat(6,fr);grid-template-rows: 200px; grid-gap: 10px;                 }
+.best-sellers p
+{ font-size: 10px;                                  }  
+
+.seller1
+{grid-column: 1/2;                }
+.seller2
+{grid-column: 2/3;               }
+.seller3
+{grid-column:3/4 ;               }
+.seller4
+{grid-column: 4/5;              }
+.seller5
+{grid-column: 5/6;               }
+.seller6
+{ grid-column: 6/7;              }
+/*follow on instgram */
+.instgram-imgs
+{display: grid; grid-template-columns: repeat(6,fr);grid-template-rows: 150px;grid-gap: 10px;grid-row-gap: 5px;
+  padding-bottom: 50px;border-bottom: 1px solid black;
+   }
+  .instgram1{grid-column :1/2;                                }
+  .instgram2{grid-column: 2/3;                               }
+  .instgram3{ grid-column: 3/4;                             }
+  .instgram4{grid-column: 4/5;                              }
+  .instgram5{ grid-column: 5/6;                              }
+  .instgram6{ grid-column:6/7 ;                              }
+  .instgram7{  grid-column:1/2 ;                            }
+  .instgram8{grid-column:2/3 ;                              }
+  .instgram9{  grid-column:3/4 ;                            }
+  .instgram10{ grid-column:4/5 ;                         }
+  .instgram11{grid-column: 5/6;                             }
+  .instgram12{  grid-column:6/7                               }
+  .seller1:hover,.seller2:hover,.seller3:hover,.seller4:hover,.seller5:hover,.seller6:hover,
+  .instgram-imgs div :hover
+  {z-index: "5"; transform: scale(1.2,1.2);
+    border-top: 4px solid #FAB08B; border-left: 4px solid #FAB08B ;
+    border-radius: 10PX;}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
